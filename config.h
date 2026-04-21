@@ -77,7 +77,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY|ControlMask,           XK_q,      killclient,     {.ui = 1} }, //kill unselect
-	{ MODKEY|ShiftMask,           , XK_q,      killclient,     {.ui = 2} }, //killall
+	{ MODKEY|ShiftMask,             XK_q,      killclient,     {.ui = 2} }, //killall
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
